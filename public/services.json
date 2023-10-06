@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "Decoration Services",
+    "short_description": "Transform your event with stunning decorations.",
+    "long_description": "Our decoration services are designed to bring your event to life with creativity and elegance. We work closely with you to understand your vision and preferences, ensuring that every detail is perfect. From floral arrangements to table settings, lighting, and thematic decor, our team of experienced designers will craft a visually stunning atmosphere that captures the essence of your event. Whether it's a wedding, corporate event, or special celebration, we create memorable spaces that leave a lasting impression.",
+    "image": "https://i.ibb.co/M65xMq1/decoration.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Event Planning",
+    "short_description": "Comprehensive event planning tailored to your needs.",
+    "long_description": "Our event planning services are your one-stop solution for organizing and executing successful events. We take care of all the details, from conceptualization to execution, ensuring that your event is seamless and stress-free. With a dedicated team of planners, we customize every aspect to meet your specific requirements. Whether it's a wedding, corporate conference, or private party, we handle venue selection, logistics, entertainment, and more. Let us turn your ideas into unforgettable experiences.",
+    "image": "https://i.ibb.co/7XNFjJn/Planning.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Floral Design",
+    "short_description": "Elevate your event with exquisite floral arrangements.",
+    "long_description": "Our floral design services add a touch of natural beauty and elegance to your event. We believe that flowers have the power to transform any space into a work of art. Our expert florists work with seasonal blooms and your preferred color palette to create breathtaking floral arrangements, centerpieces, and bouquets. Whether it's a romantic wedding, a corporate gala, or a special occasion, our floral designs will captivate your guests and leave a lasting impression.",
+    "image": "https://i.ibb.co/tDdzwGK/floral-design.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Stunning Location Scouting",
+    "short_description": "Discover the perfect venue for your event.",
+    "long_description": "Our stunning location scouting services help you find the ideal backdrop for your event. We have a portfolio of breathtaking venues, from rustic countryside settings to chic urban spaces. Our team will work closely with you to understand your vision and requirements, ensuring that the venue aligns perfectly with your event theme. We handle all the logistics, negotiations, and arrangements, allowing you to focus on creating memories in a stunning location.",
+    "image": "https://i.ibb.co/CsjC6rK/location.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Cake Design",
+    "short_description": "Delicious and visually stunning cakes for your celebration.",
+    "long_description": "Our cake design services combine culinary expertise with artistic creativity. Our skilled pastry chefs will craft a cake that not only tastes delicious but also serves as a centerpiece for your event. We offer a wide range of flavors, designs, and sizes to suit your preferences. Whether it's a traditional wedding cake, a themed birthday cake, or a customized dessert table, our cakes are both a treat for the taste buds and a feast for the eyes.",
+    "image": "https://i.ibb.co/zVCjmHH/cake-disign.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Dance Lessons",
+    "short_description": "Learn to dance and add flair to your special day.",
+    "long_description": "Our dance lessons are perfect for couples preparing for their first dance, or anyone looking to add some flair to their event. Our experienced dance instructors offer personalized lessons tailored to your skill level and music choice. Whether you want to master the elegance of ballroom dancing or groove to contemporary beats, we'll make sure you feel confident and comfortable on the dance floor. Impress your guests and create magical moments with your dance skills.",
+    "image": "https://i.ibb.co/xf4C28K/dance-lessons.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Photography Services",
+    "short_description": "Capture every moment with professional photography.",
+    "long_description": "Our photography services are dedicated to preserving the memories of your event in stunning detail. Our team of skilled photographers will capture every precious moment, from candid shots to formal portraits. We use state-of-the-art equipment and creative techniques to ensure that every image tells a story. Whether it's a wedding, corporate event, or family gathering, our photography services will provide you with a beautiful visual record to cherish for years to come.",
+    "image": "https://i.ibb.co/tPk6xwS/photography.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Videography Services",
+    "short_description": "Relive your event with cinematic videography.",
+    "long_description": "Our videography services are designed to turn your event into a cinematic masterpiece. Our talented videographers use high-definition cameras and editing techniques to create a compelling narrative of your special day. From capturing heartfelt speeches to documenting unforgettable moments, our videos will transport you back to the joy and emotion of the event. Whether it's a wedding, corporate function, or milestone celebration, our videography services will create lasting memories.",
+    "image": "https://i.ibb.co/CbrmPJb/videography.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Catering Services",
+    "short_description": "Indulge in delectable cuisine tailored to your event.",
+    "long_description": "Our catering services promise a culinary experience that delights the senses. We offer a diverse menu to suit your event, from elegant fine dining to casual buffet-style feasts. Our culinary team uses fresh, locally sourced ingredients to create mouthwatering dishes that cater to various dietary preferences. Whether it's a formal corporate dinner, a wedding reception, or a casual gathering, our catering services will ensure that your guests savor every bite.",
+    "image": "https://i.ibb.co/PM3nHYq/catering.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Guest Management",
+    "short_description": "Effortless guest list management for your event.",
+    "long_description": "Our guest management services streamline the process of handling your guest list, ensuring that your event runs smoothly. We provide a comprehensive solution for RSVP tracking, seating arrangements, and guest communication. Our team will work closely with you to understand your requirements and preferences. Whether it's a large-scale conference, an intimate wedding, or any event in between, our guest management services will ensure that every guest feels welcome and valued.",
+    "image": "https://i.ibb.co/RDFKQtd/guest-manage.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Entertainment Services",
+    "short_description": "Elevate your event with captivating entertainment.",
+    "long_description": "Our entertainment services add excitement and entertainment to your event. We offer a wide range of options, from live bands and DJs to magicians, dancers, and interactive experiences. Our talented entertainers will engage your guests and create memorable moments. Whether it's a corporate gala, a wedding reception, or a themed party, our entertainment services will ensure that your event is fun, engaging, and unforgettable.",
+    "image": "https://i.ibb.co/27QSyZ1/entertainment.jpg"
+  }
+]

@@ -1,132 +1,130 @@
-{
-  "services": [
-    {
-      "id": 1,
-      "title": "Weddings",
-      "image": "https://i.ibb.co/Twp46mS/wedding.jpg",
-      "features": [
-        "Venue Selection",
-        "Decorations",
-        "Catering",
-        "Music and Entertainment",
-        "Photography and Videography",
-        "Guest Management"
-      ],
-      "details": "Our wedding planning services are designed to create unforgettable moments that will be cherished for a lifetime. We believe that every couple is unique, and your wedding should reflect your love story. From helping you select the perfect venue to creating stunning decorations, coordinating catering, providing top-notch music and entertainment, and capturing every magical moment through photography and videography, we ensure that your special day is nothing short of perfect. Our experienced team will take care of all the details, allowing you to relax and enjoy every moment with your loved ones. Your dream wedding awaits.",
-      "pricing": "$5,000 - $15,000"
-    },
-    {
-      "id": 2,
-      "title": "Birthday Parties",
-      "image": "https://i.ibb.co/0M4KJTn/birthday.jpg",
-      "features": [
-        "Theme Selection",
-        "Venue Booking",
-        "Party Decorations",
-        "Cake and Catering",
-        "Entertainment",
-        "Party Favors"
-      ],
-      "details": "Celebrate your special day with a birthday party that is as unique as you are. Our team specializes in creating themed birthday parties that cater to your interests and style. We handle everything from selecting the perfect venue to booking catering services, arranging for a stunning cake, providing entertainment, and even ensuring that your guests leave with memorable party favors. Whether you're a child or an adult, we make sure your birthday celebration is filled with joy, laughter, and unforgettable memories. Let us take care of the planning, so you can focus on enjoying your day.",
-      "pricing": "$500 - $2,000"
-    },
-    {
-      "id": 3,
-      "title": "Anniversaries",
-      "image": "https://i.ibb.co/zxcTF6g/anniversary.jpg",
-      "features": [
-        "Venue Decoration",
-        "Catering",
-        "Music and Dance",
-        "Gift Planning",
-        "Photo Albums"
-      ],
-      "details": "Anniversaries are a time to celebrate the enduring love between two people. Our anniversary planning services are dedicated to making your special day extraordinary. We meticulously decorate the venue to create a romantic and intimate atmosphere. Our expert catering services ensure that you and your guests savor delicious cuisine. We can arrange for live music and dance performances to make the evening even more magical. Additionally, we help you plan thoughtful gifts and provide beautiful photo albums to capture the memories. Celebrate your love story with us.",
-      "pricing": "$1,000 - $5,000"
-    },
-    {
-      "id": 4,
-      "title": "Engagement Parties",
-      "image": "https://i.ibb.co/PGtKVH9/engagement.jpg",
-      "features": [
-        "Venue Selection",
-        "Engagement Ring Selection Assistance",
-        "Catering",
-        "Music and Entertainment",
-        "Decorations"
-      ],
-      "details": "Begin your journey to forever with an engagement party that reflects your unique love story. We offer comprehensive engagement party planning services that start with helping you choose the perfect venue. Our experts can even assist in selecting the ideal engagement ring. We handle all aspects of the party, from catering to music and entertainment, ensuring that the atmosphere is filled with love and joy. Our meticulous attention to detail extends to decorations that match your style and preferences. Let us make your engagement celebration as special as your commitment.",
-      "pricing": "$800 - $3,000"
-    },
-    {
-      "id": 5,
-      "title": "Retirement Parties",
-      "image": "https://i.ibb.co/Lpph2Dh/retirement.jpg",
-      "features": [
-        "Venue Decoration",
-        "Catering",
-        "Speeches and Toasts",
-        "Entertainment",
-        "Custom Gifts"
-      ],
-      "details": "Retire in style with a retirement party that honors your hard-earned accomplishments. Our retirement party planning services are designed to create a heartfelt and memorable celebration. We meticulously decorate the venue to reflect your personality and achievements. Our expert catering ensures a delightful culinary experience for you and your guests. Enjoy heartfelt speeches and toasts from loved ones, along with entertaining activities. We can even arrange custom gifts to commemorate your career. Bid farewell to work and welcome the exciting new chapter of your life with a memorable party.",
-      "pricing": "$600 - $2,500"
-    },
-    {
-      "id": 6,
-      "title": "Baby Showers",
-      "image": "https://i.ibb.co/gRkQS82/baby-Showe.jpg",
-      "features": [
-        "Theme Selection",
-        "Venue Decoration",
-        "Games and Activities",
-        "Gift Registry Assistance",
-        "Catering"
-      ],
-      "details": "Welcome the newest member of your family with a joyous baby shower that is both fun and heartfelt. Our baby shower planning services cover every detail, starting with selecting the perfect theme. We meticulously decorate the venue to create a warm and inviting atmosphere. Enjoy games and activities that will keep your guests entertained throughout the event. We also offer gift registry assistance to ensure you receive everything you need for your new arrival. Our catering services provide delicious food to satisfy your cravings and delight your guests. Let us make your baby shower a day to remember.",
-      "pricing": "$400 - $1,500"
-    },
-    {
-      "id": 7,
-      "title": "Holiday Parties",
-      "image": "https://i.ibb.co/Gk6v3Th/holiday.jpg",
-      "features": [
-        "Themed Decorations",
-        "Catering",
-        "Entertainment",
-        "Gift Exchanges",
-        "Venue Selection"
-      ],
-      "details": "Celebrate the holiday season with a festive party that captures the magic of the holidays. Our holiday party planning services include themed decorations that bring the spirit of the season to life. Indulge in delicious catering that features holiday favorites. Enjoy entertainment that is sure to keep everyone in high spirits. Organize gift exchanges that spread joy and laughter among your guests. We can help you select the perfect venue to create the ideal holiday atmosphere. Let us make your holiday party a winter wonderland of memories.",
-      "pricing": "$800 - $3,500"
-    },
-    {
-      "id": 8,
-      "title": "Graduation Parties",
-      "image": "https://i.ibb.co/mFkC5db/graduation.jpg",
-      "features": [
-        "Venue Decoration",
-        "Catering",
-        "Photo Booth",
-        "Entertainment",
-        "Diploma Presentation"
-      ],
-      "details": "Honor your academic achievements with a memorable graduation party that marks the beginning of a new journey. Our graduation party planning services ensure that your celebration is filled with pride and joy. We meticulously decorate the venue to reflect your school colors and achievements. Savor delicious catering while you and your guests make lasting memories in the photo booth. Enjoy entertainment that captures the essence of your academic journey. We can even arrange for a diploma presentation that symbolizes your accomplishments. Let us celebrate your hard work and success.",
-      "pricing": "$600 - $2,000"
-    },
-    {
-      "id": 9,
-      "title": "Gathering Events",
-      "image": "https://i.ibb.co/HrfvjzF/gatherings.jpg",
-      "features": [
-        "Venue Selection",
-        "Decoration",
-        "Catering",
-        "Music and Entertainment",
-        "Guest List Management"
-      ],
-      "details": "Host a memorable gathering event that brings people together for a great time. Our gathering event planning services cover all aspects, from selecting the ideal venue to creating a vibrant atmosphere with decorations. Enjoy a delicious culinary experience with our catering services. We can arrange for live music and entertainment to keep your guests engaged and entertained. Leave the guest list management to us, ensuring everyone important is present. Whether it's a family reunion, a friends' get-together, or any other gathering, we make it an event to remember.",
-      "pricing": "$500 - $3,000"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "title": "Weddings",
+    "image": "https://i.ibb.co/Twp46mS/wedding.jpg",
+    "features": [
+      "Venue Selection",
+      "Decorations",
+      "Catering",
+      "Music and Entertainment",
+      "Photography and Videography",
+      "Guest Management"
+    ],
+    "details": "Our wedding planning services are designed to create unforgettable moments that will be cherished for a lifetime. We believe that every couple is unique, and your wedding should reflect your love story. From helping you select the perfect venue to creating stunning decorations, coordinating catering, providing top-notch music and entertainment, and capturing every magical moment through photography and videography, we ensure that your special day is nothing short of perfect. Our experienced team will take care of all the details, allowing you to relax and enjoy every moment with your loved ones. Your dream wedding awaits.",
+    "pricing": "$5,000 - $15,000"
+  },
+  {
+    "id": 2,
+    "title": "Birthday Parties",
+    "image": "https://i.ibb.co/0M4KJTn/birthday.jpg",
+    "features": [
+      "Theme Selection",
+      "Venue Booking",
+      "Party Decorations",
+      "Cake and Catering",
+      "Entertainment",
+      "Party Favors"
+    ],
+    "details": "Celebrate your special day with a birthday party that is as unique as you are. Our team specializes in creating themed birthday parties that cater to your interests and style. We handle everything from selecting the perfect venue to booking catering services, arranging for a stunning cake, providing entertainment, and even ensuring that your guests leave with memorable party favors. Whether you're a child or an adult, we make sure your birthday celebration is filled with joy, laughter, and unforgettable memories. Let us take care of the planning, so you can focus on enjoying your day.",
+    "pricing": "$500 - $2,000"
+  },
+  {
+    "id": 3,
+    "title": "Anniversaries",
+    "image": "https://i.ibb.co/zxcTF6g/anniversary.jpg",
+    "features": [
+      "Venue Decoration",
+      "Catering",
+      "Music and Dance",
+      "Gift Planning",
+      "Photo Albums"
+    ],
+    "details": "Anniversaries are a time to celebrate the enduring love between two people. Our anniversary planning services are dedicated to making your special day extraordinary. We meticulously decorate the venue to create a romantic and intimate atmosphere. Our expert catering services ensure that you and your guests savor delicious cuisine. We can arrange for live music and dance performances to make the evening even more magical. Additionally, we help you plan thoughtful gifts and provide beautiful photo albums to capture the memories. Celebrate your love story with us.",
+    "pricing": "$1,000 - $5,000"
+  },
+  {
+    "id": 4,
+    "title": "Engagement Parties",
+    "image": "https://i.ibb.co/PGtKVH9/engagement.jpg",
+    "features": [
+      "Venue Selection",
+      "Engagement Ring Selection Assistance",
+      "Catering",
+      "Music and Entertainment",
+      "Decorations"
+    ],
+    "details": "Begin your journey to forever with an engagement party that reflects your unique love story. We offer comprehensive engagement party planning services that start with helping you choose the perfect venue. Our experts can even assist in selecting the ideal engagement ring. We handle all aspects of the party, from catering to music and entertainment, ensuring that the atmosphere is filled with love and joy. Our meticulous attention to detail extends to decorations that match your style and preferences. Let us make your engagement celebration as special as your commitment.",
+    "pricing": "$800 - $3,000"
+  },
+  {
+    "id": 5,
+    "title": "Retirement Parties",
+    "image": "https://i.ibb.co/Lpph2Dh/retirement.jpg",
+    "features": [
+      "Venue Decoration",
+      "Catering",
+      "Speeches and Toasts",
+      "Entertainment",
+      "Custom Gifts"
+    ],
+    "details": "Retire in style with a retirement party that honors your hard-earned accomplishments. Our retirement party planning services are designed to create a heartfelt and memorable celebration. We meticulously decorate the venue to reflect your personality and achievements. Our expert catering ensures a delightful culinary experience for you and your guests. Enjoy heartfelt speeches and toasts from loved ones, along with entertaining activities. We can even arrange custom gifts to commemorate your career. Bid farewell to work and welcome the exciting new chapter of your life with a memorable party.",
+    "pricing": "$600 - $2,500"
+  },
+  {
+    "id": 6,
+    "title": "Baby Showers",
+    "image": "https://i.ibb.co/gRkQS82/baby-Showe.jpg",
+    "features": [
+      "Theme Selection",
+      "Venue Decoration",
+      "Games and Activities",
+      "Gift Registry Assistance",
+      "Catering"
+    ],
+    "details": "Welcome the newest member of your family with a joyous baby shower that is both fun and heartfelt. Our baby shower planning services cover every detail, starting with selecting the perfect theme. We meticulously decorate the venue to create a warm and inviting atmosphere. Enjoy games and activities that will keep your guests entertained throughout the event. We also offer gift registry assistance to ensure you receive everything you need for your new arrival. Our catering services provide delicious food to satisfy your cravings and delight your guests. Let us make your baby shower a day to remember.",
+    "pricing": "$400 - $1,500"
+  },
+  {
+    "id": 7,
+    "title": "Holiday Parties",
+    "image": "https://i.ibb.co/Gk6v3Th/holiday.jpg",
+    "features": [
+      "Themed Decorations",
+      "Catering",
+      "Entertainment",
+      "Gift Exchanges",
+      "Venue Selection"
+    ],
+    "details": "Celebrate the holiday season with a festive party that captures the magic of the holidays. Our holiday party planning services include themed decorations that bring the spirit of the season to life. Indulge in delicious catering that features holiday favorites. Enjoy entertainment that is sure to keep everyone in high spirits. Organize gift exchanges that spread joy and laughter among your guests. We can help you select the perfect venue to create the ideal holiday atmosphere. Let us make your holiday party a winter wonderland of memories.",
+    "pricing": "$800 - $3,500"
+  },
+  {
+    "id": 8,
+    "title": "Graduation Parties",
+    "image": "https://i.ibb.co/mFkC5db/graduation.jpg",
+    "features": [
+      "Venue Decoration",
+      "Catering",
+      "Photo Booth",
+      "Entertainment",
+      "Diploma Presentation"
+    ],
+    "details": "Honor your academic achievements with a memorable graduation party that marks the beginning of a new journey. Our graduation party planning services ensure that your celebration is filled with pride and joy. We meticulously decorate the venue to reflect your school colors and achievements. Savor delicious catering while you and your guests make lasting memories in the photo booth. Enjoy entertainment that captures the essence of your academic journey. We can even arrange for a diploma presentation that symbolizes your accomplishments. Let us celebrate your hard work and success.",
+    "pricing": "$600 - $2,000"
+  },
+  {
+    "id": 9,
+    "title": "Gathering Events",
+    "image": "https://i.ibb.co/HrfvjzF/gatherings.jpg",
+    "features": [
+      "Venue Selection",
+      "Decoration",
+      "Catering",
+      "Music and Entertainment",
+      "Guest List Management"
+    ],
+    "details": "Host a memorable gathering event that brings people together for a great time. Our gathering event planning services cover all aspects, from selecting the ideal venue to creating a vibrant atmosphere with decorations. Enjoy a delicious culinary experience with our catering services. We can arrange for live music and entertainment to keep your guests engaged and entertained. Leave the guest list management to us, ensuring everyone important is present. Whether it's a family reunion, a friends' get-together, or any other gathering, we make it an event to remember.",
+    "pricing": "$500 - $3,000"
+  }
+]

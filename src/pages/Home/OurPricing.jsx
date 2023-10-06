@@ -2,7 +2,7 @@ import { FaCheck } from "react-icons/fa";
 
 const OurPricing = () => {
   return (
-    <div className="my-40 max-w-7xl mx-auto ">
+    <div className="my-40 max-w-7xl xl:mx-auto mx-5">
       <h2 className="text-4xl font-black text-center">
         Our <span>Pricing</span>
       </h2>
@@ -10,8 +10,8 @@ const OurPricing = () => {
         Do not sell yourself short. No one will value you. Set a fair price for
         you, your book, your services, whatever it is that you have to offer.
       </p>
-      <div className="flex justify-between gap-5 mt-20">
-        <div className="text-center space-y-5 p-8 border hover:scale-110 w-1/4">
+      <div className="flex flex-col lg:flex-row  justify-between gap-5 mt-20">
+        <div className="w-full md:w-1/2 lg:w-1/4 mx-auto  text-center space-y-5 p-4 md:p-8 border hover:scale-110 ">
           <h5 className="text-4xl">Silver Plan</h5>
           <h3 className="text-3xl">$100</h3>
           <p className="text-lg">One Time Installation</p>
@@ -42,7 +42,7 @@ const OurPricing = () => {
           </div>
         </div>
 
-        <div className="text-center space-y-5 p-8 border hover:scale-110 w-1/4">
+        <div className="w-full md:w-1/2 mx-auto text-center space-y-5 p-4 md:p-8 border hover:scale-110 lg:w-1/4">
           <h5 className="text-4xl">Gold Plan</h5>
           <h3 className="text-3xl">$150</h3>
           <p className="text-lg">One Time Installation</p>
@@ -72,7 +72,7 @@ const OurPricing = () => {
             </div>
           </div>
         </div>
-        <div className="text-center space-y-5 p-8 border hover:scale-110 w-1/4">
+        <div className="w-full md:w-1/2 mx-auto text-center space-y-5 p-4 md:p-8 border hover:scale-110 lg:w-1/4">
           <h5 className="text-4xl">Diamond Plan</h5>
           <h3 className="text-3xl">$200</h3>
           <p className="text-lg">One Time Installation</p>
