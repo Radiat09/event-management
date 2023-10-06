@@ -1,7 +1,13 @@
+import Banner from "./Banner";
+import OurPricing from "./OurPricing";
+import WhyUs from "./WhyUs";
+
 const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <Banner></Banner>
+      <OurPricing></OurPricing>
+      <WhyUs></WhyUs>
     </div>
   );
 };
