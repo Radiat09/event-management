@@ -23,19 +23,29 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li>
-        <NavLink to="/">Home</NavLink>
+        <NavLink className="font-bold" to="/">
+          Home
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/about">About</NavLink>
+        <NavLink className="font-bold" to="/about">
+          About
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/events">Events</NavLink>
+        <NavLink className="font-bold" to="/events">
+          Events
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/gallery">Gallery</NavLink>
+        <NavLink className="font-bold" to="/gallery">
+          Gallery
+        </NavLink>
       </li>
       <li>
-        <NavLink to="/team">Team</NavLink>
+        <NavLink className="font-bold" to="/team">
+          Team
+        </NavLink>
       </li>
     </>
   );
@@ -61,12 +71,12 @@ const Navbar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box  w-52"
           >
             {navLinks}
           </ul>
         </div>
-        <NavLink to="/" className=" font-black text-3xl">
+        <NavLink to="/" className=" font-black text-3xl text-pink-600">
           HIGH & DRY
         </NavLink>
       </div>
@@ -78,7 +88,7 @@ const Navbar = () => {
           <div>
             <div className="dropdown dropdown-bottom dropdown-end">
               <div tabIndex={0} className="avatar m-1">
-                <div className="w-9 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                <div className="w-9 rounded-full ring ring-secondary ring-offset-pink-500 ring-offset-2">
                   {user.photoURL ? (
                     <img src={user?.photoURL} />
                   ) : (
@@ -88,7 +98,7 @@ const Navbar = () => {
               </div>
               <ul
                 tabIndex={0}
-                className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-24"
+                className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box  w-24"
               >
                 <li>
                   <NavLink to="/profile">Profile</NavLink>
@@ -101,10 +111,16 @@ const Navbar = () => {
           </div>
         ) : (
           <div className="navbar-end flex items-center gap-4 ">
-            <NavLink to="/login" className="btn btn-sm">
+            <NavLink
+              to="/login"
+              className="btn btn-sm btn-outline btn-secondary border"
+            >
               Login
             </NavLink>
-            <NavLink to="register" className="btn btn-sm">
+            <NavLink
+              to="register"
+              className="btn btn-sm btn-outline btn-secondary border"
+            >
               Register
             </NavLink>
           </div>

@@ -7,11 +7,13 @@ import Events from "../pages/Events/Events";
 import ServiceDetails from "../components/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
 import EventDetails from "../components/EventDetails/EventDetails";
+import Error from "./Error";
 
 const Router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    errorElement: <Error></Error>,
     children: [
       {
         path: "/",

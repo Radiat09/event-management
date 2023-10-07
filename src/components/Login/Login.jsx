@@ -23,6 +23,7 @@ const Login = () => {
         toast.success("Logged In successfully!");
       })
       .catch((err) => {
+        console.error(err);
         toast.error(err.message);
       });
   };
@@ -84,7 +85,7 @@ const Login = () => {
             type="submit"
             required
             value="Login"
-            className="input input-bordered  input-primary text-white hover:bg-purple-700 bg-purple-600 w-full max-w-xs cursor-pointer"
+            className="input input-bordered  input-primary btn-outline btn-secondary w-full max-w-xs cursor-pointer font-bold"
           />
         </form>
         <div className="divider w-1/4 mx-auto">OR</div>

@@ -5,7 +5,7 @@ const WhyUs = () => {
   return (
     <div className="flex flex-col md:flex-row gap-12 max-w-7xl xl:mx-auto mx-5 my-40">
       <div className="space-y-5 flex-1">
-        <h2 className="text-5xl font-bold">Why Us</h2>
+        <h2 className="text-5xl font-bold text-pink-300">Why Us</h2>
         <p>
           Construction is an ancient{" "}
           <span className="text-bold">humanity activity</span>. It began with
@@ -15,15 +15,16 @@ const WhyUs = () => {
         </p>
         <div className="space-y-5">
           <p className="flex items-center gap-3">
-            <FaCheckCircle className="text-3xl"></FaCheckCircle> Enjoying &
-            Eating
+            <FaCheckCircle className="text-3xl text-pink-500"></FaCheckCircle>{" "}
+            Enjoying & Eating
           </p>
           <p className="flex items-center gap-3">
-            <FaCheckCircle className="text-3xl"></FaCheckCircle>Live Togather
+            <FaCheckCircle className="text-3xl text-pink-500"></FaCheckCircle>
+            Live Togather
           </p>
           <p className="flex items-center gap-3">
-            <FaCheckCircle className="text-3xl"></FaCheckCircle>The Beautiful
-            Moments{" "}
+            <FaCheckCircle className="text-3xl text-pink-500"></FaCheckCircle>
+            The Beautiful Moments{" "}
           </p>
         </div>
       </div>
@@ -31,7 +32,7 @@ const WhyUs = () => {
         <div className="flex items-center gap-8">
           <MdTableBar className="text-5xl"></MdTableBar>
           <div>
-            <h4 className="text-3xl font-semibold">520+</h4>
+            <h4 className="text-3xl font-semibold text-pink-500">520+</h4>
             <p className="font-semibold">Expert & Professional Staff</p>
           </div>
         </div>
@@ -39,7 +40,7 @@ const WhyUs = () => {
         <div className="flex items-center gap-8">
           <FaGlassCheers className="text-4xl"></FaGlassCheers>
           <div>
-            <h4 className="text-3xl font-semibold">25000</h4>
+            <h4 className="text-3xl font-semibold text-pink-500">25000</h4>
             <p className="font-semibold">Completed Wedding</p>
           </div>
         </div>
@@ -47,7 +48,7 @@ const WhyUs = () => {
         <div className="flex items-center gap-8">
           <FaWineBottle className="text-4xl"></FaWineBottle>
           <div>
-            <h4 className="text-3xl font-semibold">520+</h4>
+            <h4 className="text-3xl font-semibold text-pink-500">520+</h4>
             <p className="font-semibold">Achived Awards</p>
           </div>
         </div>

@@ -10,7 +10,7 @@ const Footer = () => {
   return (
     <div className="max-w-7xl xl:mx-auto mx-5 my-10">
       <div className="flex flex-col lg:flex-row gap-5 items-center justify-between">
-        <div className="text-3xl font-bold">HIGH & DRY</div>
+        <div className="text-3xl font-bold text-pink-600">HIGH & DRY</div>
         <div className="flex items-center gap-3">
           <Link className="font-bold hover:text-white" to="/">
             Home
@@ -26,9 +26,9 @@ const Footer = () => {
           </Link>
         </div>
         <div className="flex items-center gap-3">
-          <FaFacebook className="text-5xl p-3 bg-gray-700 rounded-full"></FaFacebook>
-          <FaTwitter className="text-5xl p-3 bg-gray-700 rounded-full"></FaTwitter>
-          <FaInstagram className="text-5xl p-3 bg-gray-700 rounded-full"></FaInstagram>
+          <FaFacebook className="text-5xl p-3 bg-white rounded-full text-blue-500"></FaFacebook>
+          <FaTwitter className="text-5xl p-3 bg-white rounded-full text-blue-400"></FaTwitter>
+          <FaInstagram className="text-5xl p-3 bg-white rounded-full text-red-500"></FaInstagram>
         </div>
       </div>
       <div className="divider my-12"></div>
@@ -42,7 +42,7 @@ const Footer = () => {
             placeholder="Enter your email"
             className="px-5 py-4  input-bordered w-full md:w-1/4"
           />
-          <button className="px-3 font-bold bg-slate-600 text-white hover:text-slate-600 hover:bg-white w-fit">
+          <button className="px-3 btn-secondary btn-outline font-bold border w-fit">
             Submit
           </button>
         </div>

@@ -10,6 +10,7 @@ const Register = () => {
   const [error, setError] = useState("");
   const { createUser } = useContext(ContextData);
   const [showHide, setShowHide] = useState(false);
+  const passwordValidator = /(?=.*[!@#$%^&*()_+{}\[\]:;<>,.?~\\-])/;
 
   const handleRegister = (e) => {
     e.preventDefault();
@@ -19,6 +20,15 @@ const Register = () => {
     console.log(email, password, username);
     setError("");
 
+    if (password.length < 6) {
+      return toast.error("Password must be 6 characters long");
+    }
+    if (!/[A-Z]/.test(password)) {
+      return toast.error("Password must have at least one Capital letter");
+    }
+    if (!passwordValidator.test(password)) {
+      return toast.error("Password must have a special character");
+    }
     createUser(email, password)
       .then((result) => {
         console.log(result.user);
@@ -79,7 +89,7 @@ const Register = () => {
               type="submit"
               required
               value="Register"
-              className="input input-bordered input-primary text-white hover:bg-purple-700 bg-purple-600 w-full max-w-xs cursor-pointer"
+              className="input input-bordered input-primary btn-outline btn-secondary font-bold w-full max-w-xs cursor-pointer"
             />
           </form>
         </div>
