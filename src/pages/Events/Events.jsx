@@ -4,7 +4,6 @@ import { useLoaderData } from "react-router-dom";
 const Events = () => {
   const events = useLoaderData();
 
-  console.log(events);
   return (
     <div className="my-40 max-w-7xl xl:mx-auto mx-5">
       <h2 className="text-5xl font-semibold text-center mb-3">

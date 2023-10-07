@@ -1,6 +1,25 @@
+import { useContext } from "react";
 import { NavLink } from "react-router-dom";
+import { ContextData } from "../../ContextProvider/ContextProvider";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Navbar = () => {
+  const { user, logout } = useContext(ContextData);
+
+  const handleLogOut = () => {
+    console.log("Outed");
+    logout()
+      .then(() => {
+        // Sign-out successful.
+        toast.success("Logged Out Successfully!");
+      })
+      .catch((err) => {
+        // An error happened.
+        toast.error(`${err.message}`);
+      });
+  };
+  console.log(user);
   const navLinks = (
     <>
       <li>
@@ -21,7 +40,7 @@ const Navbar = () => {
     </>
   );
   return (
-    <div className="navbar text-white">
+    <div className="navbar max-w-7xl mx-auto bg-base-100">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -47,18 +66,49 @@ const Navbar = () => {
             {navLinks}
           </ul>
         </div>
-        <a className="text-3xl font-black">HIGH & DRY</a>
+        <NavLink to="/" className=" font-black text-3xl">
+          HIGH & DRY
+        </NavLink>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
-      <div className="navbar-end flex items-center gap-1">
-        <NavLink className="btn btn-sm text-white" to="/login">
-          Login
-        </NavLink>
-        <NavLink className="btn btn-sm text-white" to="/register">
-          Register
-        </NavLink>
+      <div className="navbar-end">
+        {user ? (
+          <div>
+            <div className="dropdown dropdown-bottom dropdown-end">
+              <div tabIndex={0} className="avatar m-1">
+                <div className="w-9 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                  {user.photoURL ? (
+                    <img src={user?.photoURL} />
+                  ) : (
+                    <img src="https://sm.ign.com/ign_nordic/cover/a/avatar-gen/avatar-generations_prsz.jpg" />
+                  )}
+                </div>
+              </div>
+              <ul
+                tabIndex={0}
+                className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-24"
+              >
+                <li>
+                  <NavLink to="/profile">Profile</NavLink>
+                </li>
+                <li>
+                  <button onClick={handleLogOut}>Logout</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        ) : (
+          <div className="navbar-end flex items-center gap-4 ">
+            <NavLink to="/login" className="btn btn-sm">
+              Login
+            </NavLink>
+            <NavLink to="register" className="btn btn-sm">
+              Register
+            </NavLink>
+          </div>
+        )}
       </div>
     </div>
   );
