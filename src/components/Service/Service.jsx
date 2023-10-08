@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 const Service = ({ service }) => {
   const { id, image, title, short_description } = service;
   return (
-    <div>
+    <div
+      data-aos="fade-up"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       <div className="card border-[6px] shadow-lg shadow-pink-600 rounded-none">
         <img
           src={image}

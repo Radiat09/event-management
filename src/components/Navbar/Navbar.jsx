@@ -22,9 +22,19 @@ const Navbar = () => {
   console.log(user);
   const navLinks = (
     <>
-      <li>
+      <li className="mr-1">
         <NavLink className="font-bold" to="/">
           Home
+        </NavLink>
+      </li>
+      <li className="mr-1">
+        <NavLink className="font-bold" to="/events">
+          Events
+        </NavLink>
+      </li>
+      <li className="mr-1">
+        <NavLink className="font-bold" to="/gallery">
+          Gallery
         </NavLink>
       </li>
       <li>
@@ -32,25 +42,15 @@ const Navbar = () => {
           About
         </NavLink>
       </li>
-      <li>
-        <NavLink className="font-bold" to="/events">
-          Events
-        </NavLink>
-      </li>
-      <li>
-        <NavLink className="font-bold" to="/gallery">
-          Gallery
-        </NavLink>
-      </li>
-      <li>
-        <NavLink className="font-bold" to="/team">
-          Team
-        </NavLink>
-      </li>
     </>
   );
   return (
-    <div className="navbar max-w-7xl mx-auto bg-base-100">
+    <div
+      data-aos="zoom-out-down"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+      className="navbar max-w-7xl mx-auto bg-base-100"
+    >
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

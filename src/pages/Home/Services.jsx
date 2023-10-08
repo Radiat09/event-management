@@ -27,6 +27,9 @@ const Services = ({ services }) => {
       </div>
       <div className="flex justify-center mt-10">
         <button
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="3000"
           onClick={() => setSeeAll(!seeAll)}
           className="btn btn-outline glass text-pink-500 text-xl"
         >

@@ -8,6 +8,8 @@ import ServiceDetails from "../components/ServiceDetails/ServiceDetails";
 import PrivateRoute from "./PrivateRoute";
 import EventDetails from "../components/EventDetails/EventDetails";
 import Error from "./Error";
+import About from "../pages/About/About";
+import Profile from "../pages/Profile/Profile";
 
 const Router = createBrowserRouter([
   {
@@ -24,6 +26,10 @@ const Router = createBrowserRouter([
         path: "/events",
         element: <Events></Events>,
         loader: () => fetch("/events.json"),
+      },
+      {
+        path: "/about",
+        element: <About></About>,
       },
       {
         path: "/events/:id",
@@ -50,6 +56,14 @@ const Router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>,
+      },
+      {
+        path: "/profile",
+        element: (
+          <PrivateRoute>
+            <Profile></Profile>
+          </PrivateRoute>
+        ),
       },
     ],
   },

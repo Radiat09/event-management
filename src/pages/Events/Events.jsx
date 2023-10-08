@@ -10,7 +10,7 @@ const Events = () => {
         Events We Handle
       </h2>
       <p className="text-xl text-center">Best service With best price</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-8 shadow-lg shadow-pink-500">
         {events.map((event) => (
           <Event key={event?.id} event={event}></Event>
         ))}

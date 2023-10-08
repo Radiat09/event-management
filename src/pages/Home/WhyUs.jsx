@@ -4,7 +4,12 @@ import { MdTableBar } from "react-icons/md";
 const WhyUs = () => {
   return (
     <div className="flex flex-col md:flex-row gap-12 max-w-7xl xl:mx-auto mx-5 my-40">
-      <div className="space-y-5 flex-1">
+      <div
+        data-aos="fade-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+        className="space-y-5 flex-1"
+      >
         <h2 className="text-5xl font-bold text-pink-300">Why Us</h2>
         <p>
           Construction is an ancient{" "}
@@ -28,7 +33,12 @@ const WhyUs = () => {
           </p>
         </div>
       </div>
-      <div className="space-y-8 flex-1">
+      <div
+        data-aos="fade-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+        className="space-y-8 flex-1"
+      >
         <div className="flex items-center gap-8">
           <MdTableBar className="text-5xl"></MdTableBar>
           <div>

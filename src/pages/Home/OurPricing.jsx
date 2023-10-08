@@ -11,7 +11,12 @@ const OurPricing = () => {
         you, your book, your services, whatever it is that you have to offer.
       </p>
       <div className="flex flex-col lg:flex-row  justify-between gap-5 mt-20">
-        <div className="w-full md:w-1/2 lg:w-1/4 mx-auto  text-center space-y-5 p-4 md:p-8 border-[8px] hover:scale-110  shadow-lg shadow-pink-600">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="w-full md:w-1/2 lg:w-1/4 mx-auto  text-center space-y-5 p-4 md:p-8 border-[8px] hover:scale-110  shadow-lg shadow-pink-600"
+        >
           <h5 className="text-4xl text-pink-500">Silver Plan</h5>
           <h3 className="text-3xl">$100</h3>
           <p className="text-lg">One Time Installation</p>
@@ -44,7 +49,12 @@ const OurPricing = () => {
           </div>
         </div>
 
-        <div className="w-full md:w-1/2 mx-auto text-center space-y-5 p-4 md:p-8 border-[8px] hover:scale-110 lg:w-1/4 shadow-lg shadow-pink-600">
+        <div
+          data-aos="flip-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="w-full md:w-1/2 mx-auto text-center space-y-5 p-4 md:p-8 border-[8px] hover:scale-110 lg:w-1/4 shadow-lg shadow-pink-600"
+        >
           <h5 className="text-4xl text-pink-500">Gold Plan</h5>
           <h3 className="text-3xl">$150</h3>
           <p className="text-lg">One Time Installation</p>
@@ -77,7 +87,12 @@ const OurPricing = () => {
             </div>
           </div>
         </div>
-        <div className="w-full md:w-1/2 mx-auto text-center space-y-5 p-4 md:p-8 border-[8px] hover:scale-110 lg:w-1/4 shadow-lg shadow-pink-600">
+        <div
+          data-aos="flip-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="w-full md:w-1/2 mx-auto text-center space-y-5 p-4 md:p-8 border-[8px] hover:scale-110 lg:w-1/4 shadow-lg shadow-pink-600"
+        >
           <h5 className="text-4xl text-pink-500">Diamond Plan</h5>
           <h3 className="text-3xl">$200</h3>
           <p className="text-lg">One Time Installation</p>
