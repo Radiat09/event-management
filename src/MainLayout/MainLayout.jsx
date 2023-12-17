@@ -6,7 +6,7 @@ import { ToastContainer } from "react-toastify";
 const MainLayout = () => {
   return (
     <>
-      <div>
+      <div className="overflow-x-hidden">
         <ToastContainer />
         <Navbar></Navbar>
         <Outlet></Outlet>
