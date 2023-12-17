@@ -58,13 +58,13 @@ const Footer = () => {
         <h4 className="text-2xl font-semibold mb-4">
           Subscribe To Our Newsletter
         </h4>
-        <div className="flex justify-center">
+        <div className="flex justify-center ">
           <input
             type="email"
             placeholder="Enter your email"
             className="px-5 py-4  input-bordered w-full md:w-1/4"
           />
-          <button className="px-3 btn-secondary btn-outline font-bold border w-fit">
+          <button className="px-3 btn-secondary btn-outline font-bold border w-fit transition-colors duration-700">
             Submit
           </button>
         </div>

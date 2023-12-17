@@ -7,9 +7,9 @@ import { toast } from "react-toastify";
 
 const Login = () => {
   const navigate = useNavigate();
+  const [showHide, setShowHide] = useState(false);
   const { emailPassSignIn, googleSignIn, githubLogin } =
     useContext(ContextData);
-  const [showHide, setShowHide] = useState(false);
 
   const handleLogin = (e) => {
     e.preventDefault();
