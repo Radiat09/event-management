@@ -55,9 +55,7 @@ const Footer = () => {
         data-aos-duration="1000"
         className="text-center"
       >
-        <h4 className="text-2xl font-semibold mb-4">
-          Subscribe To Our Newsletter
-        </h4>
+        <h4 className="text-2xl font-semibold mb-4">Subscribe To Our</h4>
         <div className="flex justify-center ">
           <input
             type="email"
