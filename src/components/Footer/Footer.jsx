@@ -55,7 +55,9 @@ const Footer = () => {
         data-aos-duration="1000"
         className="text-center"
       >
-        <h4 className="text-2xl font-semibold mb-4">Subscribe To Our</h4>
+        <h4 className="text-2xl font-semibold mb-4">
+          Subscribe To Our Newsletter
+        </h4>
         <div className="flex justify-center ">
           <input
             type="email"
@@ -76,7 +78,7 @@ const Footer = () => {
       <div>
         <p className="flex gap-2 items-center justify-center">
           <FaCopyright></FaCopyright>
-          HIGH & DRY - 2030, Made with Love.
+          HIGH & DRY-2030, Made with Love.
         </p>
       </div>
     </div>
